@@ -50,7 +50,7 @@ ul li{
 	border: 2px solid transparent #fff;
 	font-size: 15px;
 	font-weight: bold;
-	margin: 15px 15px 15px 300px;
+	margin: 15px 15px 15px 180px;
 	border-radius: 15px;
 }
 ul li a{
@@ -126,4 +126,46 @@ margin:10px 150px 10px 150px ;
 img{
 	border: #fffc00 solid; 
 	
+}
+@media screen and (max-width: 980px;){
+	.bg{
+		width: 92%;
+	}
+	.phg{
+		width: 92%
+	}
+	#forms{
+		width: 92%
+	}
+	#portfolio{
+		width: 92%
+	}
+}
+@media screen and (max-width: 768px;){
+	.bg{
+		width: 75%;
+	}
+	.phg{
+		width: 75%
+	}
+	#forms{
+		width: 75%
+	}
+	#portfolio{
+		width: 75%
+	}
+}
+@media screen and (max-width: 640px;){
+	.bg{
+		width: 46%;
+	}
+	.phg{
+		width: 46%
+	}
+	#forms{
+		width: 46%
+	}
+	#portfolio{
+		width: 46%
+	}
 }
